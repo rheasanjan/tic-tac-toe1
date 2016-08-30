@@ -135,7 +135,7 @@ function winnerCheck(n,playerName){               // Winning conditions
 
 
 		){
-		boardMsg(playerName+" won the game!");
+		alert(playerName+" won the game!");
 		hasWinner = 1;
 		moveCount=0;
 		$("#playButton").text("Play again");
